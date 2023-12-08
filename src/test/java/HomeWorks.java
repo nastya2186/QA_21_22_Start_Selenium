@@ -50,6 +50,12 @@ public class HomeWorks {
         WebElement at5 = wd.findElement(By.cssSelector("[placeholder = 'Password']"));
 
 
+        WebElement el18 =wd.findElement(By.cssSelector("[placeholder = 'Email']"));
+        WebElement el19 =wd.findElement(By.cssSelector("[placeholder ^= 'Em']"));
+        WebElement el20 =wd.findElement(By.cssSelector("[placeholder $= 'il']"));
+        WebElement el21 =wd.findElement(By.cssSelector("[placeholder *= 'ma']"));
+
+
 
 
     }
